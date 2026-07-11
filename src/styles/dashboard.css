@@ -1,0 +1,40 @@
+.dashboard-page body-styles {
+  background-color: #f8f9ff;
+  background-image:
+    radial-gradient(at 0% 0%, rgba(16, 185, 129, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(16, 185, 129, 0.08) 0px, transparent 50%);
+  min-height: 100vh;
+}
+
+.dashboard-page .glass-card {
+  transition: all 0.3s ease;
+}
+
+.dashboard-page .glass-card:hover {
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.dashboard-page .progress-ring-circle {
+  transition: stroke-dashoffset 0.8s ease-out;
+  stroke-dasharray: 283;
+  stroke-dashoffset: 51;
+}
+
+@keyframes dashboard-breathe {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.3);
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+    box-shadow: 0 0 25px rgba(16, 185, 129, 0.6);
+  }
+}
+
+.dashboard-page .ai-orb {
+  animation: dashboard-breathe 4s infinite ease-in-out;
+}

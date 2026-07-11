@@ -1,0 +1,24 @@
+.nutrition-page .emerald-glow {
+  box-shadow: inset 0 0 20px rgba(16, 185, 129, 0.05);
+}
+
+@keyframes nutrition-breathe {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+.nutrition-page .ai-orb-glow {
+  animation: nutrition-breathe 4s ease-in-out infinite;
+  background: radial-gradient(circle, #10b981 0%, transparent 70%);
+}
+
+.nutrition-page .donut-segment {
+  transition: stroke-dasharray 0.8s ease-out;
+}
