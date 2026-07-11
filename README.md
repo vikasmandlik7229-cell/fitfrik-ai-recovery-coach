@@ -35,7 +35,7 @@ This project focuses on user experience, navigation flow, and product visualizat
 
 ### 📂 GitHub Repository
 
-https://github.com/YOUR_USERNAME/fitfrik-ai-recovery-coach
+https://github.com/vikasmandlik7229-cell/fitfrik-ai-recovery-coach
 
 ---
 
@@ -64,19 +64,25 @@ https://github.com/YOUR_USERNAME/fitfrik-ai-recovery-coach
 
 ## 🤖 AI Analysis
 
-![Analysis](assets/analysis.png)
+![AI Analysis](assets/analysis.png)
 
 ---
 
 ## 🥗 Nutrition Analysis
 
-![Nutrition](assets/nutrition.png)
+### Nutrition Overview
+
+![Nutrition Overview](assets/nutrition_1.png)
+
+### Detailed Nutrition Report
+
+![Nutrition Details](assets/nutrition_2.png)
 
 ---
 
-## 💪 Recovery Coach
+## 💪 AI Recovery Coach
 
-![Recovery](assets/recovery.png)
+![Recovery Coach](assets/recovery.png)
 
 ---
 
@@ -184,7 +190,7 @@ fitfrik-ai-recovery-coach
 ## Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/fitfrik-ai-recovery-coach.git
+git clone https://github.com/vikasmandlik7229-cell/fitfrik-ai-recovery-coach.git
 ```
 
 ---
@@ -260,7 +266,7 @@ Computer Engineering Student
 
 AI / ML • React • Product Engineering
 
-GitHub: https://github.com/YOUR_USERNAME
+GitHub: https://github.com/vikasmandlik7229-cell
 
 LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
 
